@@ -1,0 +1,188 @@
+				====JAVA======
+
+		=> Java is a object oriented programming language.
+		=> It support with object oriented features like
+				Encapsulation
+				Inheritence
+				Polymorphisim
+				Abstration.
+
+		Note:-->
+			Because selenium developed under java programs,Inorder to
+			run selenium programs we need to understand java basics.
+
+		
+				Package
+				class
+				method
+				variable
+				statement
+				constructor
+				mainmethod
+				object
+
+
+package:-->
+		=> A package is collection of related classes.
+		=> It work as a  namegroup for collection of classes
+		=> Package doesn't allow duplicate classes, Inorder to write
+			duplicate classes we should create another package.
+		=> Without package creation we can't design classes,If you
+			try without package it create default package.
+
+Create package in Eclipse:-->
+
+	* Under project right click on src 
+	* use New option select --> package. 
+	* Enter packagename and name  [starts with lowercase]
+	* Make sure package name is unique.
+	* To Create sub package  follow .[Dot] operator
+			mq.core.java
+			mq.core.python
+
+============================================================>>>
+
+Class:--->
+
+	* Class is a blureprint or template
+	* Class contain set of methods,Variables and constructors.
+	* Class is a category,under category we can find set of behaviours.
+
+Syntax:-->
+
+	class <classname>		class  RobotA		public  class RobotB
+	{			{			{
+
+	}			}			}
+
+
+
+	Class name with Access modifiers:-->
+
+			public:-->
+				This modifier allow class programms to access across the project.
+			private:-->
+				This modifier restrict class information to use outside class
+			protected:-->
+				This modifier extend class information to  inherited class and thier 						siblings classes
+			package:-->
+				This modifier allow class information to access inside a package..
+
+
+Create Class in Eclipse:-->
+
+		Right click on package----->New ---------->select Class
+		Enter classname click on Finish.
+
+		Note:--> Classname start with uppercase.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+method:--->
+	method describe class behaviour
+	Each class contain one or set of methods
+	Each method contain one or set of statements...
+	
+Syntax:--->
+
+	public  class SmartPhone	
+	{
+		void calling( )
+		{
+		
+		}
+
+		void sendText( )
+		{
+
+		}
+
+	}
+
+
+	Note:-->
+	void  ---->Method type , void does't return any value to method
+
+
+------------------------------------------------------------------------------------------------>
+Statement:-->
+	every method contain set of statements
+	In java programming each statement should end with  <<  ;  >>
+
+Syntax:-->
+	public  class SmartPhone	
+	{
+		void sendText()
+		{
+			System.out.println("Add text");
+
+		}
+
+	}
+--------------------------------------------------------------------------------------------------------------
+mainmethod:-->
+	* In java programing execution starts from main method
+	* Under main method we  can write statement directly or
+		can call statement using object creation...
+
+Syntax:-->
+
+	public  class AppTest
+	{
+		public static  void main(String args[])
+		{
+			System.out.println("hello world!");
+		}
+
+	}
+
+
+Navigation to  create Main method in Eclipse:---->
+
+	Under Package  ---->  New  ----> class  -----> Enter classname
+	select checkbox   <<<   public static void main >>
+	click on finish.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------>>
+object:-->
+	In real world every object have independent states. and each state
+	have independent behaviour.
+
+	In java program we need to create object to access any class behaviours.
+
+
+	Syntax:-->
+			Classname   variable=new  Classname();
+			variable.methodname();
+
+	Syntax to call static methods from public class:-->
+
+			Classname.methodname();
+			Classname.variablename;
+
+-----------------------------------------------------------------------------------------------------------------------------
+When to write import package for any class:---->
+
+	Whenever need to reuse Class,method or variable from
+	different package , Import is Mandatory
+
+	=> Define method with public modifier to access outside package.
+Syntax:-->
+	import packagename.classname;
+		or
+	import packagename.*;
+
+	write import statement after packagename
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
