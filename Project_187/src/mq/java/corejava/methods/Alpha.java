@@ -2,7 +2,7 @@ package mq.java.corejava.methods;
 
 public class Alpha 
 {
-	void jump()
+	public void jump()
 	{
 		System.out.println("jump executed");
 	}
@@ -10,7 +10,7 @@ public class Alpha
 	{
 		System.out.println("run executed");
 	}
-	static void walk()
+	public static void walk()
 	{
 		System.out.println("walk executed");
 	}
