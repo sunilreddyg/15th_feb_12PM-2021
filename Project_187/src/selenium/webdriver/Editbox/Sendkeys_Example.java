@@ -19,7 +19,6 @@ public class Sendkeys_Example {
 		driver.findElement(By.name("firstname"))
 		.sendKeys("ajay"+Keys.TAB+"krishna"+Keys.TAB+"ajaykrishna@gmail.com");
 		
-		
 		//select dropdown option using sendkeys
 		driver.findElement(By.name("birthday_day")).sendKeys("25");
 		//selecting month dropdown using keyboard characters
