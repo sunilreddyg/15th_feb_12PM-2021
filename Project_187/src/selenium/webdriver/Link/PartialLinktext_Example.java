@@ -12,7 +12,7 @@ public class PartialLinktext_Example
 
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.navigate().to("https://www.cleartrip.com/");
+		driver.navigate().to("http://cleartrip.com");
 		driver.manage().window().maximize();
 		
 		
