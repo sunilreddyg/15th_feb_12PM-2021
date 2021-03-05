@@ -184,7 +184,7 @@ getAllSelectedOptions:-->
 			
 			Select Dropdown=new Select(driver.findElement(By.id("DropdownId"));
 			int Selection_Count=Dropdown.getAllSelectedOptions().size();
-			System.out.println("Selected Option count is "+Selection-Count);
+			System.out.println("Selected Option count is "+Selection_Count);
 
 			Note:--> Before use this command make sure dropdown is multiple
 					 option selection type.
