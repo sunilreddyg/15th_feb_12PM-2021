@@ -98,10 +98,8 @@ CssAttribute syntax:-->
 		By.cssSelector("tagname[Attributename='Attributevalue']")
 		By.cssSelector("*[Attributename='AttributeValue']")
 		
-		
 		=> while using different locators otherthan id & name property
 			make sure those properties available unqiue.
-
 
 		By.cssSelector("div[id='Sbtn']")
 		By.cssSelector("div[aria-label='Login']")
