@@ -222,8 +222,5 @@ HtmlSource:--> Identify Required node with help of sibling node..
 		By.cssSelector("label[id='email-login'] + input")
 		By.cssSelector("label[id='email-login'] ~ input")
 		
-		
-		
-		
-		
+
 ================================================================================
