@@ -96,13 +96,12 @@ Types of variables available in Java?...>
 			void Landphone()
 			{
 				int price=100;
-				system.out.println(price);
+				system.out.println(price);     //Print 100
 			}
 
 			void mobile()
 			{
-
-				system.out.println(price);
+				system.out.println(price);    //Show syntax error
 			//local variable can't share information to other methods
 					
 			}
@@ -203,7 +202,7 @@ class variable:--> class variables are similar to instant variables,
 	
 				public void  Landphones()
 				{
-					system.out.println(price);
+					system.out.println(new Phone().price);
 					//Variable information can be used 
 				}
 
