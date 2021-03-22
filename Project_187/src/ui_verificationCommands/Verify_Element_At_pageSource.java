@@ -30,6 +30,8 @@ public class Verify_Element_At_pageSource {
 			System.out.println("Element not presented at source");
 		
 		
+		
+		
 		//We can use try catch block as alternative for pagesource
 		
 		try {
@@ -45,8 +47,8 @@ public class Verify_Element_At_pageSource {
 		
 		
 		
-		driver.findElement(By.name("login1")).click();
-		System.out.println("Hi i am executed");
+		
+		
 		
 		//Finally keyword in Try catch handling
 
