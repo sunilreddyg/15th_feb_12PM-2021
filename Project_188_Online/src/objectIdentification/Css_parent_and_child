@@ -99,20 +99,21 @@ Css Position syntax:-->
 				select[id='ClassType'] > option:nth-child(2)
 				
 ---------------------------------------------------------------->>
-Example:--> Target Element with partial attribute properites
+Example:--> Identify object with sibling node...
 
-Manual Browser session:-->
-		
-			id="email_987fsdlsjlksdjflsdjf"
-			
-Automation browser session:-->
-	
-			id="email_jflsdsdoijflksdjlsd"
-			
-			
-Syntax:-->
-			tagname[propertyname *  = 'matching property value']
-	
+
+<div class="abc">
+	<input id="firstname"  class="text">
+	<label class="abc"></label>
+	<div class="abc"></div>  ---------------------------------> Target	
+</div>
+
+
+	input[id='firstname'] + label + div
+	input[id='firstname'] ~ label ~ div
+
+
+	Not:--> In cssSelector  + and ~   identify sibling nodes
 
 	
 	
