@@ -1,0 +1,90 @@
+
+Xpath:-->
+
+
+	<div id="btn_str"  title="create request" >  Get Account </div>
+
+
+
+Attribute:-->
+
+
+		//tagname[@Aname='Avalue']
+		//*[@Aname='Avalue']
+
+
+Text:-->
+
+		//tagname[.='ElmenetText']
+		//tagname[text()='ElementText']
+
+Combinations (or)  multiple properties:-->
+
+		//tagname[@Aname='Avalue'][@Aname='Avalue']
+		//tagname[@Aname='Avalue'][.='ElementText']
+====================================================================================================
+Partial xpath:-->
+
+		=> Syntax to identify location with partial attribute and text
+		//tagname[contains(@Aname,'Partial Avalue')]
+		//tagname[contains(contains(.,'Partial text'))]	
+
+
+		=> Syntax to identify location with partial attribute and text with start characters
+		//tagname[starts-with(@Aname,'Avalue starting characters')]
+		//tagname[starts-with(.,'text starting characters')]
+
+		
+		=> Syntax to idneitfy location with partial attribute and text with end characters
+		//tagname[ends-with(@Aname,'Avalue end characters')]
+		//tagname[ends-with(.,'text end characters')]
+
+====================================================================================================
+Xpath With And operator:-->
+
+
+		//tagname[@Aname='Avalue' and  @Aname='Avalue']
+		//tagname[@Aname='Avalue' and  .='ElemenText']
+
+
+Xpath with OR operator:-->		
+
+		//tagname[@Aname='Avalue' or  @Aname='Avalue']
+		//tagname[@Aname='Avalue' or  .='ElementText']
+
+
+Xpath with AND,OR Operators:-->
+
+		//tagname[@Aname='Avalue' and @Aname='Avalue' and  @Aname='Avalue']   -----Valid
+		//tagname[@Aname='Avalue' and @Aname='Avalue' or @Aname='Avalue']     -----Invalid
+		//tagname[@Aname='Avalue' and (@Aname='Avalue' or @Aname='Avalue')]   -----Valid
+   		//tagname[@Aname='Avalue' and @Aname='Avalue' or (@Aname='Avalue')]   -----Valid
+
+=========================================================================================================
+Xpath Duplicate index:-->
+
+
+		(Any xpath)[int position]
+		=> For the duplicate properties we can provide index number..
+
+Htmlsource:-->
+		<div class="Sbtn">
+			<input type="text">
+		</div>
+
+		<div class="Sbtn">
+			<input type="text">             --------------Target
+		</div>
+
+		
+			(//input[@type='text'])[2]
+		
+=======================================================================================================>>
+
+
+
+
+
+
+
+
