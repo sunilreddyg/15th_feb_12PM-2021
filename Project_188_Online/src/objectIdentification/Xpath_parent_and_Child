@@ -13,7 +13,7 @@ Recognize object with unique attributes
 Syntax:-->
 		//tagname[@property='propertyvalue']
 
-	
+		//input[@id='email']
 -------------------------------------------------------------------
 
 Example2:--->
@@ -35,7 +35,7 @@ Recognize object when parent element having single child element
 Syntax:--->
 		//parenttagname[@property='pvalue']/childtagname
 		
-		
+		//div[@id='reg_login']/input[@id='email']
 
 ------------------------------------------------------------------------
 Example3:-->
@@ -58,7 +58,7 @@ Recognize object when parent element having Group child element
 syntax:-->
 		//parentagname[property='propertyvalue']/childtagname[prop='propvalue']
 		
-		
+		//div[@id='reg_login']/input[@type='text']
 --------------------------------------------------------------------------
 Example:--> Absolute xpath  [Identify location using position]
 	
@@ -80,7 +80,12 @@ HtmlSource:-->
 		Syntax:--> 
 				tagname[int position]
 				
+				/html/body/div[2]/input[2]
 				
+				Xpath with index:-->
+						
+						//div[2]/input[2]
+						//input[2]
 
 --------------------------------------------------------------------	
 Example3:-->
@@ -101,6 +106,8 @@ Htmlsource:--->
 Xpath position:-->
 			//parenttagname[@prop='propvalue']/childtagname[int pos]
 		
+		
+		//div[@id='reg_login']/input[2]
 			
 -------------------------------------------------------------------------
 Example4:-->
@@ -124,7 +131,9 @@ Syntax:-->
 			//tagname[@prop='pvalue'  and  @prop='pvalue']
 			//tagname[@prop='pvalue'  and  text()='outterText']
 
-			
+
+			//input[@id='email' and @type='text']
+			//input[@id='email'][@type='email']
 ----------------------------------------------------------------------------
 Example5:-->
 Recognize object with multiple attributes[using <OR> comparision]		
@@ -144,6 +153,7 @@ Syntax:-->
 		 //tagname[@prop='pvalue' or text()='visibletext']
 		 
 		 
+		 //div[@id='sample' or @name='user' or .='Create Account']
 		 
 ----------------------------------------------------------------------------
 Example6:-->
@@ -191,7 +201,9 @@ Example 8:--->
 </body>
 </html>		
 					
-					
+			(//input[@id='email'])[2]
+			/html/body/div[2]/input
+			(//div[@id='reg_login'])[2]/input
 					
 ----------------------------------------------------------------------------
 Example9:-->
@@ -207,7 +219,8 @@ HtmlSource:-->
 	Syntax:-->
 			//SiblingElement/following-sibling::tagname
 		
-		  
+		  	
+		  	//input[@id='firstname']/following-sibling::div
 		
 --------------------------------------------------------------------------------		
 Example9:-->
@@ -224,7 +237,8 @@ HtmlSource:-->
 		</div>	
 		
 		
-		
+		//input[@id='firstname']/following-sibling::div[2]
+		//li[@class='roundtrip']/following-sibling::div[1]
 ---------------------------------------------------------------------------
 Example9:-->
 		Recognize object using preceding sibling
@@ -240,7 +254,7 @@ HtmlSource:-->
 	Syntax:-->
 			//SiblingElement/preceding-sibling::tagname
 		
-		
+			//input[@id='firstname']/preceding-sibling::div
 		
 --------------------------------------------------------------------------------		
 Example9:-->
@@ -253,34 +267,55 @@ HtmlSource:-->
 					<div class="roundtrip">   
 					<div class="origin">			 --------------------------->Target Element
 					<div class="oneway">    
-					<input id="firstname" name="new">    
+					<input id="firstname" name="new">    //unique
 		</div>	
 		
 		
+			//input[@id='firstname']/preceding-sibling::div[2]
 		
 ------------------------------------------------------------------------------->
-Recognize object with  ancestor:--->
-	
-	//tagname[@property='propertyvalue']/ancestor::tagname
-	Note:--> Recongize all parent tags which contain selected tagname
+Identify parent element with child element:-->
 
-HtmSource:-->
-		<div  id="UserList">
-			<ul id="firstrow">
-				<li> user1<li>
-				<li> user2<li>               ---->source
-				<li> user3<li>
-			<ul>
-
-			<ul id="firstrow">
-				<li> user4<li>
-				<li> user5<li>              ---->target
-				<li> user6<li>
-			<ul>
+		<div class="origin">				----Target
+				<div class="origin">            
+				<input id="firstname" name="new">     --->Unique
 		</div>
-Example:--->
+
+
+			childelement::parent
 			
+			
+			//input[@id='firstname']/parent::div
+----------------------------------------------------------------------------->>
+Identify descendant element using ancestor elements...
 
 
 
+		<div class="origin">		-----Unique		
+				<div class="origin">            
+						<input id="firstname" name="new">      ---> Target
+				</div>
+		</div>
+
+	Xpath:-->
+		//div[@class='origin']/div/input
+		//div[@class='origin']/descendant::input
+
+	CssSelector:-->
+			div[class='origin'] input
+---------------------------------------------------------------------------->
+Identify ancestor element using descendant elements...
+
+
+
+		<ul class="origin">		-----target		
+				<div class="origin">            
+						<input id="firstname" name="new">      ---> unique
+				</div>
+		</ul>
+
+	Xpath:-->
+			//input[@id='firstname']/ancestor::ul[1]
+-------------------------------------------------------------------------->>
+			
 
