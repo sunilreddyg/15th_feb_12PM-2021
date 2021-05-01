@@ -18,7 +18,10 @@ public class Partical_CssSelector {
 		
 		driver.findElement(By.cssSelector("input[name*='name']")).clear();
 		driver.findElement(By.cssSelector("input[name*='name']")).sendKeys("Newuser");
-
+		
+		
+		
+	
 	}
 
 }
