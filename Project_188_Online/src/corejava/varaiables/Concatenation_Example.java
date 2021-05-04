@@ -5,8 +5,7 @@ public class Concatenation_Example
 
 	public static void main(String[] args) 
 	{
-		
-		
+
 		int a=100;
 		int b=200;
 		
@@ -30,6 +29,9 @@ public class Concatenation_Example
 		String z=x+y;    // Here + operator concatenated two strings
 		System.out.println(z);
 		String m=x.concat(y);
+		
+		
+		
 		
  
 	}

@@ -104,7 +104,7 @@ Types of variables available in Java?...>
 			{
 
 				system.out.println(price);
-			//local variable can't share information to other methods
+			    //local variable can't share information to other methods
 					
 			}
 		}
@@ -193,7 +193,10 @@ Instant Variable:---->
 class variable:--> class variables are similar to instant variables, only diff we declare
 	           class variables with static keyword.
 	
-		Note:--> static variables we can access without object creation.
+		Note:--> static variables we can access without object creation.accross the
+				 methods and classes.
+				 
+				 
 			Datatype variable=Classname.variablename;
 
 
