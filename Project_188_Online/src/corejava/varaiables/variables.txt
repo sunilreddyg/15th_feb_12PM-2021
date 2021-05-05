@@ -124,7 +124,7 @@ Types of variables available in Java?...>
 				{
 					//WebDriver method we can't access because 
 					we define webdriver interface locally
-			
+
 				}
 		
 		}
@@ -186,6 +186,7 @@ Instant Variable:---->
 					driver.findElement(By.id("i0112"));
 					driver.getTitle();
 				}
+				
 		
 		}
 

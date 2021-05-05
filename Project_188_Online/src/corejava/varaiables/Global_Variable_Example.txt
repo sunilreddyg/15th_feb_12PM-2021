@@ -1,0 +1,53 @@
+
+
+	public class TestA
+	{
+
+		public static void main(String args[])
+		{
+
+			System.setProperty("webdriver.chrome.driver","*//drivers//chromedriver.exe");
+			WebDriver driver=new Chromedriver();
+			driver.get("http://facebook.com");
+
+
+		}
+
+
+
+	}
+========================================================================
+	public class TestA
+	{
+		WebDriver driver;			
+
+		public void launch_browser()
+		{
+			System.setProperty("webdriver.chrome.driver","*//drivers//chromedriver.exe");
+			driver=new Chromedriver();
+		}
+
+		public void enter_url()
+		{
+			driver.get("http://facebook.com");
+		}
+
+	}
+
+	public class call_reusable_method
+	{
+		public static void main(String args[])
+		{
+			TestA obj=new TestA();
+			obj.launch_browser();
+			obj.enter_url();
+			obj.driver.findElement(By.id("email")).Sendkeys("darshna");
+		}
+
+	}
+
+
+
+
+
+

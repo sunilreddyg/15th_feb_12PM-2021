@@ -1,0 +1,100 @@
+		
+
+
+
+
+	public class Variables
+	{
+
+		static String name="sunil";
+
+		public void method1()
+		{	
+			System.out.println(name);      => static varaibles can access with in non static methods
+		}
+
+
+	}
+
+
+	public class Variabels
+	{
+		String name="MQ";
+		public static void method1()
+		{
+			=> Name variable can't access here
+			=> Because non static varaible can't acess with in static method.
+		}
+
+	}
+---------------------------------------------------------------------------------------------------->>>>>>
+
+		public void Varaibles
+		{
+			
+			String name="webriver";		--> Instant Global varaible
+			static double price=12000.00;   --> Class Variable /static variable [Global variable]   
+
+			public void method1()
+			{
+				int x=10;			
+				System.out.println(x);     -----> Local Variable [Local variable access only inside a method]
+				System.out.println(name); 
+				System.out.println(double); 
+			}
+
+			
+
+			public static void main(String args[])
+			{
+				System.out.println(price);       	===> static variable and main method available with in same class
+				
+				Varaibles obj=new Variables();
+				String toolname=obj.name;               ===> Non static variable we access in main method by creation
+				System.out.println(toolname);		===> of object only..
+			}
+
+		}
+
+
+
+		public class Get_Global_Variables
+		{
+			
+			public static void main(String args[])
+			{
+				=> syntax to access other class static variables
+				System.out.prinln(Variables.price);
+
+				=> syntax to access other class global variabels
+				Variables obj=new Variables();
+				System.out.println(obj.name);
+
+			}
+
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
