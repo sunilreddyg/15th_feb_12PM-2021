@@ -34,14 +34,11 @@ public class Reusable
 		return driver;
 	}
 	
-	
-	
+
 	public void load_webpage()
 	{
 		driver.get(url);
 	}
-	
-	
 	
 	public void User_login()
 	{

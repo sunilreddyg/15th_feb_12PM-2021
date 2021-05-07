@@ -1,0 +1,155 @@
+Conditions in Java:-->
+
+			There are four condition statements in java.
+				if
+				else
+				if else
+				switch
+				
+				
+			Conditions allow perticual statements to execute based on 
+			decision.
+			
+			
+			Logical conditions from mathematics.
+				
+					=> Less Than     					a < b
+					=> Less Than or equal to 			a <=b
+					=> GreaterThan						a > b
+					=> Greaterthan or equal to			a >=b
+					=> Equal to							a ==b
+					=> NotEquals						a!=b
+					
+					
+					
+if codition:-->
+		if statement ot specify a block of java code to be executed
+		when condition is true. [If accept only boolean value]
+		
+		
+		
+		Syntax:-->
+		
+				if(condition)
+				{
+						//StateMent to executed on true condition
+				}
+				
+				
+		Example:-->
+		
+				
+				if(20 > 19 )
+				{
+					System.out.println("Statement1");
+					System.out.println("Statement2");
+				}
+				
+				
+		Example:-->
+				int a=10;
+				int b=20;
+				
+				if(a < b)
+				{
+					System.out.println("True condition");
+				}
+==========================================================================>
+else Condition:-->
+		Else statement to specify a block of code to be executed when condition
+		is return false.	
+		
+		int age=17;
+		if(age > 18)
+		{
+			System.out.print("true condition");
+		}
+		else
+		{
+			System.out.print("false condition");
+		}	
+		
+===========================================================================
+else if:-->
+		else if statement to specify a new condition to execute when
+		first codition failed.
+		
+		
+		if(condition)
+		{
+				//First condition
+		}
+		else if(codnition2)
+		{
+				//Second condition
+		}
+		else
+		{
+				//Final condition to execute
+		}
+		
+		
+		
+		Example:-->
+		
+		String  name="sunil";
+		String  email="anil@email.com";
+		String  mobile="9030248855;
+		
+		
+		if(name.equals("anil"))
+		{
+				System.out.prinln("name is approved");
+		}
+		else if(email.equals("sunil@email.com")
+		{
+				System.out.prinln("email is approved")
+		}
+		else if(mobile.equals("9030248855")
+		{
+				System.out.prinln("mobile is approved")
+		}
+		else
+		{
+				System.out.println("Authentication failed")
+		}
+		
+====================================================================>
+SwitchCase:-->
+	Switch case work same as else if condition only difference is
+	it execute required block of code directly insted of checking 
+	each and every statement.	
+		
+				
+		Syntax:-->
+		
+				Switch(Expression)
+				{
+					case x:
+							//Code to be execute for case x
+					break;
+					
+					
+					case y:
+							//Code to be execute for case y
+					break;
+					
+					default:
+							//if any case not macthing it execute default block
+					break;
+	
+				}
+				
+				
+				
+			
+				
+				
+				
+				
+				
+		
+		
+		
+		
+		
