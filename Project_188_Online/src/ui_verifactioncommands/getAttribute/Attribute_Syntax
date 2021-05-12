@@ -1,0 +1,33 @@
+getAttribute("Attributename");
+
+				=> get attribute mehtod return runtime attribute value using it's attribute nam
+
+		Syntax:-->
+			WebElement Element=driver.findElement(By.id("id"));
+			String Attributevalue=Element.getAttribute("AttributeName");
+
+
+
+	<input id="email" style="display:none" type="text" >
+
+
+		
+			WebElement Email=driver.findElement(By.id("email"));
+			String Rvalue=Element.getAttribute("style");
+			System.out.println(Rvalue); -------------------------------------> display:none
+
+
+	<input id="password"  disabled type="text">
+
+
+			WebElement Password=driver.findElement(By.id("password"));
+			String RDvalue=Password.getAttribute("disabled");
+			System.out.println(RDvalue);--------------------------------------->true
+
+
+	<input id="email" readonly type="email">
+
+
+			WebElement Email=driver.findElement(By.id("email"));
+			String REvalue=Email.getAttribute("class");
+			System.out.prinln(REvalue); --------------------------------------->true
