@@ -31,3 +31,16 @@ getAttribute("Attributename");
 			WebElement Email=driver.findElement(By.id("email"));
 			String REvalue=Email.getAttribute("class");
 			System.out.prinln(REvalue); --------------------------------------->true
+====================================================================================================>>
+
+How to capture input from editbox?.
+		
+		WebElement Editbox=driver.findElement(By.id("EditboxID"));
+		String InputValue=Editbox.getAttribute("value");
+		System.out.println("Inserted input values at editbox is --> "+InputValue);		
+		
+
+
+
+
+
