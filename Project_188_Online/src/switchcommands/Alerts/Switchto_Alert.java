@@ -25,7 +25,7 @@ public class Switchto_Alert {
 		
 		//Identify search button
 	    WebElement Search_btn=driver.findElement(By.xpath("//input[@type='submit']"));
-	    //Search_btn.click();
+	    Search_btn.click();
 	    
 	    
 	    //Switch to Alert
