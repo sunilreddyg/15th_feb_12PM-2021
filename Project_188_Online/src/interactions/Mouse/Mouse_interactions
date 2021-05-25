@@ -67,7 +67,7 @@ ClickAndHold:-->
 				.MovetoElement(WebElement dst).Release().perform();
 
 
-		Note:--> We should use ClickAndHold & MovetOElement & Release as
+		Note:--> We should use ClickAndHold & MovetoElement & Release as
 				 combination inordert to perform any single action.
 
 DragAndDrop:-->
