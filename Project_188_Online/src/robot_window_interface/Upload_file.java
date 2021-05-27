@@ -10,7 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Upload_file {
+public class Upload_file 
+{
 
 	public static void main(String[] args) throws Exception 
 	{
@@ -45,8 +46,7 @@ public class Upload_file {
 		//Press enter
 		robot.keyPress(KeyEvent.VK_ENTER);
 		
-		
-
+	
 	}
 
 }
