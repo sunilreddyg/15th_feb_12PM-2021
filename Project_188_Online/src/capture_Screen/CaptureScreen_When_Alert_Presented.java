@@ -6,22 +6,22 @@ import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
-
 import javax.imageio.ImageIO;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CaptureScreen_When_Alert_Presented {
+public class CaptureScreen_When_Alert_Presented 
+{
 
 	public static void main(String[] args) throws Exception 
 	{
 		
 		/*
 		 * In general selenium doesn't capture screen when alert was presented. reason is
-		 * alert throw excpetion "unhandlealert".
+		 * alert throw excpetion "unhandledalert".
+		 * So that we follow robot interface to capture screen.
 		 */
 
 		System.setProperty("webdriver.chrome.driver", "browser_drivers\\chromedriver.exe");
