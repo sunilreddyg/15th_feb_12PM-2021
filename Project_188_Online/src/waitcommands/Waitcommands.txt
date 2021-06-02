@@ -185,7 +185,7 @@ Example:-->
 		wait.until(ExpectedConditions.ElementTobeClickable(By.id("x")));
 ===============================================================================		
 	
-textToBePresentInElementLocated:--->
+d:--->
 	An expectation to verify text presented at selected Element..
 	
 	
@@ -222,6 +222,8 @@ frametobeavailableAndSwitchToIt:-->
 
 ======================================================================		
 NumberofWindowsTobe:-->
+	
+	An expectation to verifu expected number of windows opened
 	
 	WebdriverWait  wait=new WebDriverwait(driver,100);
 	wait.until(ExpectedConditions.NumberofWindowsTobe(int num));
