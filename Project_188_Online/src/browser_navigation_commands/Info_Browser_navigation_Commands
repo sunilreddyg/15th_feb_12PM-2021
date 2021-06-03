@@ -29,9 +29,6 @@ load url to browser window using navigate command
 syntax;-->
 	driver.navigate().to("http://domainname.com");
 	
-	
-	
-
 --------------------------------Common browser actions--------------------------------------
 Close():---->
 	method close single browser window opened by webdriver
