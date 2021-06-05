@@ -1,8 +1,6 @@
 package javascript_Executor;
 
 import java.io.File;
-import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;

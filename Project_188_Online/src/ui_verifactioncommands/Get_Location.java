@@ -11,7 +11,7 @@ public class Get_Location {
 	{
 		
 		
-		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "browser_drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.spicejet.com/");
 		//driver.manage().window().maximize();
