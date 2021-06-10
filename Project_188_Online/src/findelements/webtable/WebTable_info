@@ -1,0 +1,20 @@
+WebTable:-->
+
+	=> WebTable represent database records in UI
+	
+	
+	<table>
+		<tbody>
+			<tr>  
+				<td>item1</td>
+				<td>item2</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+
+	tr---> Table row
+	td---> Table data [Othername is cell]
+	th---> table header
+======================================================================>>>
