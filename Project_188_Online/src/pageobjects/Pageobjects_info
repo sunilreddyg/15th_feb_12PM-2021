@@ -1,0 +1,21 @@
+Page Objects:--->
+
+ Within your web app's UI there are areas that your tests
+ interact with. A Page Object simply models these as 
+ objects within the test code. 
+ 
+ pageobject is a script framework which is used to reusable
+ page objects instead of repeating.
+ 
+ 
+ Why Pageobjects:-->
+ 
+  This reduces the amount of duplicated code 
+  it means that if the UI changes, the fix need only
+  be applied in one place.
+  
+  pagefactory:-->
+  
+  		pagefactory is a part of pageobject, It contains
+  		library class called pagefactory, which supports
+  		to convert simple objects into testcode..

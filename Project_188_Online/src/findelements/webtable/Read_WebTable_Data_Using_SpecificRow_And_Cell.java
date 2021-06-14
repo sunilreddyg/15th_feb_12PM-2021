@@ -13,7 +13,6 @@ public class Read_WebTable_Data_Using_SpecificRow_And_Cell {
 	public static void main(String[] args) 
 	{
 		
-		
 		/*
 		 * FAQ:--> Reading data from static row and static cell
 		 */
@@ -37,7 +36,7 @@ public class Read_WebTable_Data_Using_SpecificRow_And_Cell {
 		rows.remove(0);
 		
 		//Target Specific row
-		WebElement SelectedRow=rows.get(1);
+		WebElement SelectedRow=rows.get(2);
 		System.out.println(SelectedRow.getText());
 		
 		
