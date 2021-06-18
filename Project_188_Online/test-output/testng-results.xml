@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected title presented for login link --> Log in to Facebook]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16315" started-at="2021-06-18T06:45:02Z" finished-at="2021-06-18T06:45:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16315" started-at="2021-06-18T06:45:02Z" finished-at="2021-06-18T06:45:18Z">
+      <class name="framework.Testng.Testng_WebDriver_Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="beforeClass" is-config="true" duration-ms="2907" started-at="2021-06-18T12:15:02Z" finished-at="2021-06-18T12:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="beforeMethod" is-config="true" duration-ms="2886" started-at="2021-06-18T12:15:05Z" finished-at="2021-06-18T12:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Verify_Login_Page()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="Verify_Login_Page" duration-ms="1289" started-at="2021-06-18T12:15:08Z" finished-at="2021-06-18T12:15:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected title presented for login link --> Log in to Facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_Page -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-06-18T12:15:09Z" finished-at="2021-06-18T12:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="afterClass" is-config="true" duration-ms="9205" started-at="2021-06-18T12:15:09Z" finished-at="2021-06-18T12:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- framework.Testng.Testng_WebDriver_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

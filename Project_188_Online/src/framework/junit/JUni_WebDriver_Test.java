@@ -2,9 +2,7 @@ package framework.junit;
 
 
 import java.io.File;
-import java.sql.Date;
 import java.util.concurrent.TimeUnit;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Assert;
