@@ -1,39 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
     <line>
-      <![CDATA[Expected title presented for login link --> Log in to Facebook]]>
+      <![CDATA[tcoo1 executed]]>
+    </line>
+    <line>
+      <![CDATA[tcoo3 executed]]>
+    </line>
+    <line>
+      <![CDATA[tcoo4 executed]]>
+    </line>
+    <line>
+      <![CDATA[tcoo6 executed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16315" started-at="2021-06-18T06:45:02Z" finished-at="2021-06-18T06:45:18Z">
+  <suite name="default suite" duration-ms="52" started-at="2021-06-21T07:12:48Z" finished-at="2021-06-21T07:12:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16315" started-at="2021-06-18T06:45:02Z" finished-at="2021-06-18T06:45:18Z">
-      <class name="framework.Testng.Testng_WebDriver_Test">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="beforeClass" is-config="true" duration-ms="2907" started-at="2021-06-18T12:15:02Z" finished-at="2021-06-18T12:15:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="beforeMethod" is-config="true" duration-ms="2886" started-at="2021-06-18T12:15:05Z" finished-at="2021-06-18T12:15:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Verify_Login_Page()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="Verify_Login_Page" duration-ms="1289" started-at="2021-06-18T12:15:08Z" finished-at="2021-06-18T12:15:09Z">
+    <test name="default-test" duration-ms="52" started-at="2021-06-21T07:12:48Z" finished-at="2021-06-21T07:12:48Z">
+      <class name="framework.Testng.TestSuite.Class2">
+        <test-method status="PASS" signature="tc004()[pri:0, instance:framework.Testng.TestSuite.Class2@1810399e]" name="tc004" duration-ms="3" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
           <reporter-output>
             <line>
-              <![CDATA[Expected title presented for login link --> Log in to Facebook]]>
+              <![CDATA[tcoo4 executed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_Login_Page -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-06-18T12:15:09Z" finished-at="2021-06-18T12:15:09Z">
+        </test-method> <!-- tc004 -->
+        <test-method status="PASS" signature="tc006()[pri:0, instance:framework.Testng.TestSuite.Class2@1810399e]" name="tc006" duration-ms="2" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
           <reporter-output>
+            <line>
+              <![CDATA[tcoo6 executed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:framework.Testng.Testng_WebDriver_Test@5034c75a]" name="afterClass" is-config="true" duration-ms="9205" started-at="2021-06-18T12:15:09Z" finished-at="2021-06-18T12:15:18Z">
+        </test-method> <!-- tc006 -->
+      </class> <!-- framework.Testng.TestSuite.Class2 -->
+      <class name="framework.Testng.TestSuite.Class1">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:framework.Testng.TestSuite.Class1@6d78f375]" name="tc001" duration-ms="15" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
           <reporter-output>
+            <line>
+              <![CDATA[tcoo1 executed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- framework.Testng.Testng_WebDriver_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:framework.Testng.TestSuite.Class1@6d78f375]" name="tc003" duration-ms="4" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tcoo3 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc003 -->
+      </class> <!-- framework.Testng.TestSuite.Class1 -->
+    </test> <!-- default-test -->
+  </suite> <!-- default suite -->
 </testng-results>
