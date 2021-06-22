@@ -1,55 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" total="9" passed="8">
   <reporter-output>
-    <line>
-      <![CDATA[tcoo1 executed]]>
-    </line>
-    <line>
-      <![CDATA[tcoo3 executed]]>
-    </line>
-    <line>
-      <![CDATA[tcoo4 executed]]>
-    </line>
-    <line>
-      <![CDATA[tcoo6 executed]]>
-    </line>
   </reporter-output>
-  <suite name="default suite" duration-ms="52" started-at="2021-06-21T07:12:48Z" finished-at="2021-06-21T07:12:48Z">
+  <suite name="Default" duration-ms="65355" started-at="2021-06-22T07:31:17Z" finished-at="2021-06-22T07:32:22Z">
     <groups>
     </groups>
-    <test name="default-test" duration-ms="52" started-at="2021-06-21T07:12:48Z" finished-at="2021-06-21T07:12:48Z">
-      <class name="framework.Testng.TestSuite.Class2">
-        <test-method status="PASS" signature="tc004()[pri:0, instance:framework.Testng.TestSuite.Class2@1810399e]" name="tc004" duration-ms="3" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
+    <test name="Test_Chrome" duration-ms="14079" started-at="2021-06-22T07:31:17Z" finished-at="2021-06-22T07:31:31Z">
+      <class name="framework.Testng.CrossBrowser.CrossBrowser_Test">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@4439f31e]" name="launchBrowser" duration-ms="3655" started-at="2021-06-22T13:01:17Z" finished-at="2021-06-22T13:01:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[tcoo4 executed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tc004 -->
-        <test-method status="PASS" signature="tc006()[pri:0, instance:framework.Testng.TestSuite.Class2@1810399e]" name="tc006" duration-ms="2" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:1, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@4439f31e]" name="loadApp" duration-ms="8673" started-at="2021-06-22T13:01:20Z" finished-at="2021-06-22T13:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com/r.php]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[tcoo6 executed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tc006 -->
-      </class> <!-- framework.Testng.TestSuite.Class2 -->
-      <class name="framework.Testng.TestSuite.Class1">
-        <test-method status="PASS" signature="tc001()[pri:0, instance:framework.Testng.TestSuite.Class1@6d78f375]" name="tc001" duration-ms="15" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="User_Registration()[pri:2, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@4439f31e]" name="User_Registration" duration-ms="1685" started-at="2021-06-22T13:01:29Z" finished-at="2021-06-22T13:01:31Z">
           <reporter-output>
-            <line>
-              <![CDATA[tcoo1 executed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tc001 -->
-        <test-method status="PASS" signature="tc003()[pri:0, instance:framework.Testng.TestSuite.Class1@6d78f375]" name="tc003" duration-ms="4" started-at="2021-06-21T12:42:48Z" finished-at="2021-06-21T12:42:48Z">
+        </test-method> <!-- User_Registration -->
+      </class> <!-- framework.Testng.CrossBrowser.CrossBrowser_Test -->
+    </test> <!-- Test_Chrome -->
+    <test name="Test_firefox" duration-ms="22724" started-at="2021-06-22T07:31:31Z" finished-at="2021-06-22T07:31:53Z">
+      <class name="framework.Testng.CrossBrowser.CrossBrowser_Test">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@2a2d45ba]" name="launchBrowser" duration-ms="16654" started-at="2021-06-22T13:01:31Z" finished-at="2021-06-22T13:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[tcoo3 executed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tc003 -->
-      </class> <!-- framework.Testng.TestSuite.Class1 -->
-    </test> <!-- default-test -->
-  </suite> <!-- default suite -->
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:1, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@2a2d45ba]" name="loadApp" duration-ms="4382" started-at="2021-06-22T13:01:47Z" finished-at="2021-06-22T13:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com/r.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="User_Registration()[pri:2, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@2a2d45ba]" name="User_Registration" duration-ms="1679" started-at="2021-06-22T13:01:52Z" finished-at="2021-06-22T13:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Registration -->
+      </class> <!-- framework.Testng.CrossBrowser.CrossBrowser_Test -->
+    </test> <!-- Test_firefox -->
+    <test name="Test_ie" duration-ms="28515" started-at="2021-06-22T07:31:53Z" finished-at="2021-06-22T07:32:22Z">
+      <class name="framework.Testng.CrossBrowser.CrossBrowser_Test">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@482f8f11]" name="launchBrowser" duration-ms="2215" started-at="2021-06-22T13:01:53Z" finished-at="2021-06-22T13:01:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:1, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@482f8f11]" name="loadApp" duration-ms="5854" started-at="2021-06-22T13:01:56Z" finished-at="2021-06-22T13:02:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com/r.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="FAIL" signature="User_Registration()[pri:2, instance:framework.Testng.CrossBrowser.CrossBrowser_Test@482f8f11]" name="User_Registration" duration-ms="20429" started-at="2021-06-22T13:02:02Z" finished-at="2021-06-22T13:02:22Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with css selector == *[name='firstname']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'PRANIL', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41007/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d2470d39-cc4b-4e7a-b748-47186adac0da
+*** Element info: {Using=name, value=firstname}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == *[name='firstname']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'PRANIL', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41007/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: d2470d39-cc4b-4e7a-b748-47186adac0da
+*** Element info: {Using=name, value=firstname}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at framework.Testng.CrossBrowser.CrossBrowser_Test.User_Registration(CrossBrowser_Test.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Registration -->
+      </class> <!-- framework.Testng.CrossBrowser.CrossBrowser_Test -->
+    </test> <!-- Test_ie -->
+  </suite> <!-- Default -->
 </testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+
+	<groups>
+		<run>
+			<!-- <include name="Reg1"></include> -->
+			<include name="Reg2"></include>
+			<!-- we can alos follow exlucde groups -->
+		</run>
+	</groups>
+
+
+	<test name="default-test">
+		<classes>
+			<class name="framework.Testng.Groups.TestSuite1"/>
+			<class name="framework.Testng.Groups.TestSuite2"/>
+			<class name="framework.Testng.Groups.TestSuite3"/>
+		</classes>
+	</test>
+</suite>
