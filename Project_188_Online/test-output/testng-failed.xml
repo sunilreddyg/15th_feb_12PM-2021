@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default]">
-  <parameter name="appurl" value="https://en-gb.facebook.com/r.php"/>
-  <parameter name="browsername" value="ie"/>
-  <test name="Test_ie(failed)">
-    <parameter name="browsername" value="ie"/>
+<suite name="Failed suite [default]">
+  <listeners>
+    <listener class-name="framework.Testng.Test_listeners.Sample_Test_Listeners"/>
+    <listener class-name="framework.Testng.Test_listeners.Sample_Reporter"/>
+  </listeners>
+  <test name="default-test(failed)">
     <classes>
-      <class name="framework.Testng.CrossBrowser.CrossBrowser_Test">
+      <class name="framework.Testng.Test_listeners.MyTest">
         <methods>
-          <include name="User_Registration"/>
+          <include name="tc005"/>
+          <include name="tc003"/>
+          <include name="tc002"/>
         </methods>
-      </class> <!-- framework.Testng.CrossBrowser.CrossBrowser_Test -->
+      </class> <!-- framework.Testng.Test_listeners.MyTest -->
     </classes>
-  </test> <!-- Test_ie(failed) -->
-</suite> <!-- Failed suite [Default] -->
+  </test> <!-- default-test(failed) -->
+</suite> <!-- Failed suite [default] -->

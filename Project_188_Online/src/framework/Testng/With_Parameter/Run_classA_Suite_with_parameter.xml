@@ -11,4 +11,5 @@
 			<class name="framework.Testng.With_Parameter.ClassA"></class>
 		</classes>
 	</test>
+	
 </suite>

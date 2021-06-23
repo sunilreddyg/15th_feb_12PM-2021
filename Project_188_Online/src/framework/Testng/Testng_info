@@ -376,9 +376,13 @@ Note:--->  We can find Parameter information at emailable report.
 	Adv:--->
 		* Without Defining Loops we can Execute test with multiple set
 				of data.
+				
 		* Instead of following Excel kind of datadriven framework,
 			We can organize multiple set of data to testcases.
+			
 		* Dataprovider genarate input data in emailable report.
+				where as excel doesn't
+				
 		* Annotation allows to create testdata easy way,
 		  without writing programming.
 		  
@@ -420,7 +424,7 @@ How to retrievedata from different class..
 @Test(dataProvider="methodname", dataProviderClass = classname.class)
 public void (String var,String var)
 {
-	//Data provider method should declare with static access specifier..
+	//Data provider method should declare with static access specifier inorder to use outside a class
 }
 
 ===============================================================>

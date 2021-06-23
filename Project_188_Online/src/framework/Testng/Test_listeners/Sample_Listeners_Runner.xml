@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="default">
+
+	<listeners>
+		<listener class-name="framework.Testng.Test_listeners.Sample_Test_Listeners"></listener>
+		<listener class-name="framework.Testng.Test_listeners.Sample_Reporter"></listener>
+		<listener class-name="framework.Testng.Test_listeners.Retry_failed"></listener>
+	</listeners>
+
+	<test name="default-test">
+		<classes>
+				<class name="framework.Testng.Test_listeners.MyTest"></class>
+		</classes>
+	</test>
+</suite>

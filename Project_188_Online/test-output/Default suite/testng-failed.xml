@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="framework.Testng.Assertions">
+      <class name="framework.Testng.Test_listeners.MyTest">
         <methods>
-          <include name="tc001"/>
+          <include name="tc006"/>
+          <include name="tc005"/>
+          <include name="tc003"/>
+          <include name="tc002"/>
         </methods>
-      </class> <!-- framework.Testng.Assertions -->
+      </class> <!-- framework.Testng.Test_listeners.MyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
