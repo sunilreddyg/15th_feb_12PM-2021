@@ -6,7 +6,8 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Read_Data_From_Excel {
+public class Read_Data_From_Excel 
+{
 
 	public static void main(String[] args) throws Exception 
 	{
