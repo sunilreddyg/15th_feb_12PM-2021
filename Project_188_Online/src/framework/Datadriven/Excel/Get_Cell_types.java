@@ -1,9 +1,6 @@
 package framework.Datadriven.Excel;
 
 import java.io.FileInputStream;
-import java.io.IOException;
-
-import org.apache.poi.examples.hssf.usermodel.CellTypes;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -11,10 +8,16 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
-public class Get_Cell_types {
+public class Get_Cell_types 
+{
 
 	public static void main(String[] args) throws Exception {
 		
+		
+		/*
+		 * Faq:--> How to read data from multiple rows when comibination of data
+		 * 		   available numers,characters,boolean,date  ---etc
+		 */
 		
 		//Target file location
 		FileInputStream fi=new FileInputStream("TestData\\BOOK.xlsx");
