@@ -1,0 +1,24 @@
+Overloading:-->
+
+		In overloading class contains duplicate methods with different parameters.
+		It is usefull resue same method name instead of creating multiple methods.
+		
+		
+		
+		
+		public void  Robot
+		{
+		
+		
+			void run(int KM)
+			{
+			
+			}
+			
+			void run(String Area)
+			{
+			
+			}
+		
+		
+		}
